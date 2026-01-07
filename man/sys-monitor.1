@@ -1,38 +1,46 @@
-.TH MYTOOL 1 "December 2025" "1.0" "MyTool Manual"
+.TH SYS-MONITOR 1 "December 2025" "1.0" "Sys-Monitor Manual"
+
 .SH NAME
-mytool \- a sample Bash tool (CHANGE THIS!)
+sys-monitor \- CPU and RAM monitoring tool for Linux
+
 .SH SYNOPSIS
-.B mytool
-[\fIoptions\fR] [\fIarguments\fR]
+.B sys-monitor
+
 .SH DESCRIPTION
-A sample Bash tool packaged as a Debian package.
-.PP
-IMPORTANT: Rename this file to match your tool name (e.g., diskmonitor.1, loganalyzer.1)
-.PP
-Your team should replace this description with information about your actual tool.
-Include details about what the tool does, its purpose, and its main features.
+Sys-Monitor is a Bash-based command-line monitoring tool designed for Linux systems.
+It displays real-time information about system resource usage, including CPU usage,
+RAM usage, and lists of top processes consuming CPU and memory.
+
+The program runs continuously in the terminal until interrupted by the user.
+
 .SH OPTIONS
 .TP
 .B \-h, \-\-help
-Display help message and exit
+Display help message and exit.
 .TP
 .B \-v, \-\-version
-Display version information and exit
-.PP
-Add your actual command-line options here.
+Display version information and exit.
+
 .SH EXAMPLES
 .PP
-.B mytool
+.B sys-monitor
 .RS
-Run the tool with default options
+Run the system monitor with default settings.
 .RE
-.PP
-Add examples of how to use your tool here.
+
 .SH FILES
 .TP
-.I /etc/mytool.conf
-Configuration file (remember to rename!)
+.I /proc/stat
+Provides CPU usage information.
+.TP
+.I /proc/meminfo
+Provides memory usage information.
+
 .SH AUTHOR
-Team Member Names (update with your team members)
+Sys-Monitor Project Team
+
 .SH SEE ALSO
-Add related commands or documentation references here.
+.BR top (1),
+.BR htop (1),
+.BR free (1),
+.BR ps (1)
