@@ -34,7 +34,7 @@ sudo dpkg -i sys-monitor_1.0_all.deb
 ```
 After installation, the command sys-monitor will be available system-wide.
 
-## usage
+## ▶️ Usage
 To run the system monitor, simply execute:
 ```bash
 sys-monitor
@@ -51,19 +51,21 @@ To exit the program, press:
 ```text
 Ctrl + C
 ```
-##📖 Manual Page
+## 📖 Manual Page
 A complete manual page (man page) is provided for this tool.
 After installation, you can access the manual using:
 ```bash
 man sys-monitor
 ```
 The man page includes:
-Command description
-Usage syntax
-Available options
-Practical usage examples
+- Command description
+- Usage syntax
+- Available options
+- Practical usage examples
 
-##project structure
+
+## 📂 Project Structure
+```text
 .
 ├── src/
 │   └── sys-monitor.sh
@@ -74,14 +76,14 @@ Practical usage examples
 │   ├── install
 │   └── manpages
 ├── README.md
-
-##Team Member
+```
+## 👥 Team Members
 Member 1 – Core implementation
 Member 2 – Documentation (README & man page)
 Member 3 – Debian packaging
 Member 4 – Testing and validation
 
-#Notes
+## 📝 Notes
 This project is developed for educational purposes.
 The tool follows standard Linux command-line conventions.
 Command name, Debian package name, and man page are kept consistent to ensure proper system integration.
