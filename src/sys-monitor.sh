@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# sys-mon - System CPU and RAM Monitor
+# sys-monitor - System CPU and RAM Monitor
 
 INTERVAL=2
 TOP_N=10

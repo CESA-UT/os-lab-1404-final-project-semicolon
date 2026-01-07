@@ -1,7 +1,6 @@
-mytool (1.0) unstable; urgency=medium
+sys-monitor (1.0) unstable; urgency=medium
 
-  * Initial release.
-  * TODO: Your team should update this with your changes.
-  * IMPORTANT: Replace "mytool" with your actual project name!
+  * Initial release of CPU and RAM monitoring tool.
+  * Developed by Team semicolon.
 
- -- Team Name <team-email@example.com>  Thu, 12 Dec 2025 12:00:00 +0000
+ -- semicolon <team-email@example.com>  Thu, 12 Dec 2025 12:00:00 +0000
