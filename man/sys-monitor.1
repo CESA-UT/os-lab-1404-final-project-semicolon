@@ -5,6 +5,7 @@ sys-monitor \- CPU and RAM monitoring tool for Linux
 
 .SH SYNOPSIS
 .B sys-monitor
+.RL [ option ]
 
 .SH DESCRIPTION
 Sys-Monitor is a Bash-based command-line monitoring tool designed for Linux systems.
@@ -12,17 +13,18 @@ It displays real-time information about system resource usage, including CPU usa
 RAM usage, and lists of top processes consuming CPU and memory.
 
 The program runs continuously in the terminal until interrupted by the user.
+.PP
+The program can be terminated by pressing Ctrl+C.
 
 .SH OPTIONS
 .TP
-.B \-h, \-\-help
+.BR \-h "," \-\-help
 Display help message and exit.
 .TP
-.B \-v, \-\-version
+.BR \-v "," \-\-version
 Display version information and exit.
 
 .SH EXAMPLES
-.PP
 .B sys-monitor
 .RS
 Run the system monitor with default settings.
@@ -37,10 +39,7 @@ Provides CPU usage information.
 Provides memory usage information.
 
 .SH AUTHOR
-Sys-Monitor Project Team
+Sys-Monitor Project Team (OS Lab Final Project)
 
 .SH SEE ALSO
-.BR top (1),
-.BR htop (1),
-.BR free (1),
-.BR ps (1)
+top (1), htop (1), free (1), ps (1)
